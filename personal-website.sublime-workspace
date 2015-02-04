@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
 				"background",
 				"background-repeat"
 			],
@@ -51,7 +59,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 598,
+				"buffer_size": 1438,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +67,7 @@
 			"file": "CSS/styles.css",
 			"settings":
 			{
-				"buffer_size": 1406,
+				"buffer_size": 1871,
 				"line_ending": "Unix",
 				"name": "html, body, div, span, applet, object, iframe,"
 			}
@@ -137,7 +145,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -171,7 +179,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -180,26 +188,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 598,
+						"buffer_size": 1438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								398,
-								398
+								202,
+								202
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -208,15 +217,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1406,
+						"buffer_size": 1871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								754,
-								754
+								1639,
+								1639
 							]
 						],
 						"settings":
@@ -226,10 +235,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 221.0,
+						"translation.y": 1001.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

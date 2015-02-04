@@ -43,8 +43,10 @@ table {
 }
 
 .top-border {
-	background-color: yellow;
-	height: 10px;
+	background-color: white;
+	height: 20px;
+	box-shadow: 0px 5px 40px 0px rgba(0,0,0,0.5);
+	position: relative;
 }
 
 .window {
@@ -56,23 +58,27 @@ table {
 }
 
 .content {
-	background-color: grey;
-	height: 700px;
+	/*background-color: white;
+	height: 700px;*/
+	box-shadow: 0px -5px 40px 0px rgba(0,0,0,0.5);
 }
 
 .container {
-	margin: 0 20%;
+	margin: 0 30%;
 }
 
 .circles ul {
 	text-align: center;
+	transform: translateY(-50%);
 }
 
 .circles li {
 	display: inline;
-	padding: 30px;
-	border: 2px solid red;
+	padding: 2.0em;
+	border: 2px solid rgba(0,0,0,.5);
 	border-radius: 100%;
+	background-color: white;
+	margin: 0 .5em;
 }
 
 .bio {
@@ -90,7 +96,7 @@ table {
 }
 
 hr {
-	background-color: black;
+	background-color: rgba(0,0,0,.15);
 	height: 1px;
 	border: 0;
 	margin: 0;
@@ -101,17 +107,41 @@ hr {
 	position: relative;
 	transform: translateY(-50%);
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .divider h2 span {
-	border: 1px solid black;
+	border: 1px solid rgba(0,0,0,.44);
 	padding: .5em 1.5em;
-	background-color: grey;
+	background-color: white;
+	color: rgba(0,0,0,.6);
 }
 
+.project-section .container {
+	padding: 3em 0;
+}
 
+.project {
+	padding: 2em 0;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+}
 
+.project:last-child {
+	border-bottom: none;
+}
+
+.project h3 {
+	font-size: 1.5em;
+	margin-bottom: .5em;
+}
+
+.project img {
+	float: right;
+}
+
+.project h3, .project p {
+	max-width: 60%;
+}
 
 
 
