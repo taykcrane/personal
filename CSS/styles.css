@@ -70,6 +70,7 @@ table {
 .circles ul {
 	text-align: center;
 	transform: translateY(-50%);
+	outline: 1px solid red;
 }
 
 .circles li {
@@ -79,6 +80,25 @@ table {
 	border-radius: 100%;
 	background-color: white;
 	margin: 0 .5em;
+	outline: 1px solid red;
+}
+
+.profile {
+	display: inline;
+	transform: translateY(-100%);
+	outline: 1px solid red;
+}
+
+.profile ul {
+	display: inline;
+	outline: 1px solid red;
+}
+
+.profile li {
+	display: inline;
+	border: 1px solid red;
+	border-radius: 100%;
+	padding: 2.0em;
 }
 
 .bio {
@@ -143,7 +163,21 @@ hr {
 	max-width: 60%;
 }
 
+.fa-twitter {
+	color: #55acee;
+}
 
+.fa-linkedin {
+	color: #0976b4;
+}
+
+.fa-envelope-o {
+	color: #db4437;
+}
+
+.fa-medium {
+	color: #333332;
+}
 
 
 
