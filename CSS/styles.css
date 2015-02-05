@@ -42,6 +42,23 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #777;
+}
+
+h1, h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
 .top-border {
 	background-color: white;
 	height: 20px;
@@ -54,12 +71,10 @@ table {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
-	height: 500px;
+	height: 50vh;
 }
 
 .content {
-	/*background-color: white;
-	height: 700px;*/
 	box-shadow: 0px -5px 40px 0px rgba(0,0,0,0.5);
 }
 
@@ -70,39 +85,52 @@ table {
 .circles ul {
 	text-align: center;
 	transform: translateY(-50%);
-	outline: 1px solid red;
 }
 
 .circles li {
 	display: inline;
-	padding: 2.0em;
-	border: 2px solid rgba(0,0,0,.5);
-	border-radius: 100%;
+}
+
+.circles a {
 	background-color: white;
+	border: 3px solid #fff;
+	border-radius: 100%;
+	box-shadow: 0 1px 1px rgba(0,0,0,.3);
 	margin: 0 .5em;
-	outline: 1px solid red;
+	display: inline-block;
+	width: 5em;
+	height: 5em;
+}
+
+.circles i {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .profile {
-	display: inline;
-	transform: translateY(-100%);
-	outline: 1px solid red;
+	position: absolute;
+	transform: translateY(-600%);
+	right: 15%;
 }
 
 .profile ul {
 	display: inline;
-	outline: 1px solid red;
 }
 
 .profile li {
 	display: inline;
-	border: 1px solid red;
 	border-radius: 100%;
-	padding: 2.0em;
+	padding: 5.0em;
+	background-image: url('../images/profile-photo.jpeg');
+	background-size: cover;
+	background-position: top center;
+	border: 3px solid #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.3);
 }
 
 .bio {
-	margin: 5% 0 10%;
+	margin: 1% 0 5%;
 	text-align: center;
 }
 
@@ -161,6 +189,11 @@ hr {
 
 .project h3, .project p {
 	max-width: 60%;
+}
+
+.date {
+	color: #aaa;
+	padding-top: 1em;
 }
 
 .fa-twitter {
