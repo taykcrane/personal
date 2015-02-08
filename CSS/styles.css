@@ -264,7 +264,7 @@ hr {
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
 	.profile {
 		display: none;
 	}
@@ -292,6 +292,14 @@ hr {
 		display: inline-block;
 		width: 10em;
 		height: 10em;
+	}
+
+	.container {
+		margin: 0 20%;
+	}
+
+	.window {
+		background-attachment: scroll;
 	}
 }
 
@@ -325,10 +333,6 @@ hr {
 
 	.bio p {
 		font-size: 1.25em;
-	}
-
-	.window {
-		background-attachment: scroll;
 	}
 
 	.desktop-only {
