@@ -230,7 +230,7 @@ hr {
 
 .date {
 	color: #aaa;
-	padding-top: 1em;
+	margin-top: 1em;
 }
 
 .fa-twitter {
@@ -249,23 +249,22 @@ hr {
 	color: #333332;
 }
 
-
+.mobile-only {
+	display: none;
+}
 
 
 /*MEDIA QUERIES*/
 /*MEDIA QUERIES*/
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 500px) {
-	.container {
-		margin: 0 10%;
+@media screen and (max-width: 1300px) {
+	.profile {
+		margin-right: 5%;
 	}
+}
 
-	.circles a {
-		width: 12vw;
-		height: 12vw;
-	}
-
+@media screen and (max-width: 1000px) {
 	.profile {
 		display: none;
 	}
@@ -282,10 +281,6 @@ hr {
 		text-align: center;
 	}
 
-	.profile-phone li {
-
-	}
-
 	.profile-phone a {
 		background-color: white;
 		background-image: url('../images/profile-photo.jpeg');
@@ -295,6 +290,27 @@ hr {
 		border-radius: 100%;
 		box-shadow: 0 1px 1px rgba(0,0,0,.3);
 		display: inline-block;
+		width: 10em;
+		height: 10em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		margin: 0 10%;
+	}
+
+	.top-border h1 {
+		margin-left: 5%;
+		font-size: .75em;
+	}
+
+	.circles a {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.profile-phone a {
 		width: 7em;
 		height: 7em;
 	}
@@ -313,6 +329,35 @@ hr {
 
 	.window {
 		background-attachment: scroll;
+	}
+
+	.desktop-only {
+		display: none;
+	}
+
+	.mobile-only {
+		display: initial;
+	}
+
+	.project-section .container {
+		padding: .5em 0;
+	}
+
+	.project {
+		text-align: center;
+	}
+
+	.project img {
+		float: none;
+		margin-bottom: .5em;
+	}
+
+	.project h3, .project p {
+		max-width: 100%;
+	}
+
+	.date {
+		margin-top: .5em;
 	}
 }
 
