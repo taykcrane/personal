@@ -129,24 +129,31 @@ a:hover {
 }
 
 .profile {
-	position: absolute;
-	transform: translateY(-600%);
-	right: 15%;
+	float: right;
+	transform: translateY(-100%);
+	margin-right: 15%;
 }
 
 .profile ul {
-	display: inline;
 }
 
 .profile li {
 	display: inline;
-	border-radius: 100%;
-	padding: 5.0em;
+}
+
+.profile a {
+	background-color: white;
 	background-image: url('../images/profile-photo.jpeg');
 	background-size: cover;
 	background-position: top center;
 	border: 3px solid #fff;
+	border-radius: 100%;
 	box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	margin: 0 .5em;
+	display: inline-block;
+	width: 10em;
+	height: 10em;
+
 }
 
 .bio {
@@ -239,9 +246,45 @@ hr {
 /*MEDIA QUERIES*/
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 	.container {
-		margin: 0 5%;
+		margin: 0 10%;
+	}
+
+	.circles a {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	.profile {
+		display: none;
+	}
+
+	.profile-phone {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.profile-phone ul {
+		text-align: center;
+	}
+
+	.profile-phone li {
+
+	}
+
+	.profile-phone a {
+		background-color: white;
+		background-image: url('../images/profile-photo.jpeg');
+		background-size: cover;
+		background-position: top center;
+		border: 3px solid #fff;
+		border-radius: 100%;
+		box-shadow: 0 1px 1px rgba(0,0,0,.3);
+		display: inline-block;
+		width: 7em;
+		height: 7em;
 	}
 }
 
