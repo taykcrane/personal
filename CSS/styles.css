@@ -310,6 +310,10 @@ hr {
 	.bio p {
 		font-size: 1.25em;
 	}
+
+	.window {
+		background-attachment: scroll;
+	}
 }
 
 
