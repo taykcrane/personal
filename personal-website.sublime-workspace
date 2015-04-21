@@ -4,20 +4,24 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-top"
+				"text",
+				"text-decoration"
 			],
 			[
-				"text-",
-				"text-align"
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-image"
 			],
 			[
 				"background",
 				"background-repeat"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"max",
@@ -40,10 +44,6 @@
 				"list-style-type"
 			],
 			[
-				"backg",
-				"background-color"
-			],
-			[
 				"pad",
 				"padding-bottom"
 			],
@@ -59,7 +59,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1438,
+				"buffer_size": 3725,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,9 +67,8 @@
 			"file": "CSS/styles.css",
 			"settings":
 			{
-				"buffer_size": 1871,
-				"line_ending": "Unix",
-				"name": "html, body, div, span, applet, object, iframe,"
+				"buffer_size": 5524,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -113,12 +112,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/taylorcrane/Desktop/Projects/personal-website",
-		"/Users/taylorcrane/Desktop/Projects/personal-website/CSS",
-		"/Users/taylorcrane/Desktop/Projects/personal-website/images"
+		"/Users/taylorcrane/Desktop/Projects/personal",
+		"/Users/taylorcrane/Desktop/Projects/personal/CSS",
+		"/Users/taylorcrane/Desktop/Projects/personal/images"
 	],
 	"file_history":
 	[
+		"/Users/taylorcrane/Desktop/Projects/personal/CSS/styles.css",
 		"/Users/taylorcrane/Desktop/Projects/startup-landing-page-clone/landing.html",
 		"/Users/taylorcrane/Desktop/Projects/about-me-page/about-me.sublime-project",
 		"/Users/taylorcrane/Desktop/Projects/personal-website/index.html",
@@ -145,7 +145,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -188,15 +188,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1438,
+						"buffer_size": 3725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
+								436,
+								436
 							]
 						],
 						"settings":
@@ -205,7 +205,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 154.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -217,25 +217,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1871,
+						"buffer_size": 5524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1639,
-								1639
+								4438,
+								4438
 							]
 						],
 						"settings":
 						{
-							"auto_name": "html, body, div, span, applet, object, iframe,",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1001.0,
+						"translation.y": 1142.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
