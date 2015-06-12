@@ -126,6 +126,32 @@ a:hover {
 	transform: translateY(-50%);
 }
 
+#email-link {
+	display: none;
+}
+
+.email-box {
+	display: inline-block;
+	height: 2em;
+	width: 15em;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%) translateX(-33.333%);
+	border: 3px solid #db4437;
+	background-color: #fff;
+	text-align: center;
+	z-index: 1000;
+}
+
+.email-box p {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+}
+
 .product-hunt {
 	font-family: sans-serif;
 	font-weight: 900;
