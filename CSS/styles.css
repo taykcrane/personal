@@ -126,23 +126,38 @@ a:hover {
 	transform: translateY(-50%);
 }
 
-#email-link {
+/*#email-link {
 	display: none;
-}
+}*/
 
 .email-box {
-	display: inline-block;
+	display: none;
 	height: 2em;
-	width: 15em;
-	position: relative;
+	width: 0em;
+	position: absolute;
 	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%) translateX(-33.333%);
+	-webkit-transform: translateY(-50%) translateX(-3.375em);
+	-ms-transform: translateY(-50%) translateX(-3.375em);
+	transform: translateY(-50%) translateX(-3.375em);
 	border: 3px solid #db4437;
 	background-color: #fff;
 	text-align: center;
 	z-index: 1000;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.email-box-animation {
+	width: 15em;
+	-webkit-transform: translateY(-50%) translateX(-10.9em);
+	-ms-transform: translateY(-50%) translateX(-10.9em);
+	transform: translateY(-50%) translateX(-10.9em);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 .email-box p {
