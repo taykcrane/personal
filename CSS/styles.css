@@ -126,10 +126,6 @@ a:hover {
 	transform: translateY(-50%);
 }
 
-/*#email-link {
-	display: none;
-}*/
-
 .email-box {
 	display: none;
 	height: 2em;
@@ -154,10 +150,6 @@ a:hover {
 	-webkit-transform: translateY(-50%) translateX(-10.9em);
 	-ms-transform: translateY(-50%) translateX(-10.9em);
 	transform: translateY(-50%) translateX(-10.9em);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
 }
 
 .email-box p {
@@ -299,9 +291,15 @@ hr {
 /*MEDIA QUERIES*/
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1420px) {
 	.profile {
 		margin-right: 5%;
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	.profile {
+		margin-right: 1%;
 	}
 }
 
