@@ -366,8 +366,12 @@ hr {
 		margin: 0 20%;
 	}
 
-	.window {
+	.window-image {
 		background-attachment: scroll;
+	}
+
+	.window-blur-image {
+		display: none;
 	}
 }
 
