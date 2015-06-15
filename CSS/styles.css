@@ -160,7 +160,7 @@ a:hover {
 }
 
 .circles .email-li-mobile {
-	display: none;
+	/*display: none;*/
 }
 
 .product-hunt {
@@ -337,12 +337,12 @@ hr {
 		height: 10em;
 	}
 
-	.circles .email-li-mobile {
-		display: inline;
-	}
-
 	.circles .email-li {
 		display: none;
+	}
+
+	.circles .email-li-mobile {
+		display: inline;
 	}
 
 	.container {
