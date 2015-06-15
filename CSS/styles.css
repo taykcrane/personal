@@ -159,6 +159,10 @@ a:hover {
 	overflow: hidden;
 }
 
+.circles .email-li-mobile {
+	display: none;
+}
+
 .product-hunt {
 	font-family: sans-serif;
 	font-weight: 900;
@@ -333,6 +337,14 @@ hr {
 		height: 10em;
 	}
 
+	.circles .email-li-mobile {
+		display: inline;
+	}
+
+	.circles .email-li {
+		display: none;
+	}
+
 	.container {
 		margin: 0 20%;
 	}
@@ -379,7 +391,7 @@ hr {
 	}
 
 	.mobile-only {
-		display: initial;
+		display: inline-block;
 	}
 
 	.project-section .container {
