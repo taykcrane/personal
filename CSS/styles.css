@@ -81,11 +81,27 @@ a:hover {
 }
 
 .window {
-	background-image: url('../images/nyc.jpg');
+	height: 50vh;
+	position: relative;
+}
+
+.window-image, .window-blur-image {
+	position: absolute;
+	height: 100%;
+	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
-	height: 50vh;
+}
+
+.window-image {
+	background-image: url('../images/nyc.jpg');
+	opacity: 1;
+}
+
+.window-blur-image {
+	background-image: url('http://negativespace.co/wp-content/uploads/2015/06/xnegativespace-181-1300x867.jpg.pagespeed.ic.eFyhXjc0mU.webp');
+	opacity: 0;
 }
 
 .content {
@@ -313,11 +329,12 @@ hr {
 	}
 
 	.profile-phone {
-		position: relative;
+		position: absolute;
 		top: 50%;
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
+		left: 50%;
+		-webkit-transform: translateY(-50%) translateX(-50%);
+		-ms-transform: translateY(-50%) translateX(-50%);
+		transform: translateY(-50%) translateX(-50%);
 	}
 
 	.profile-phone ul {

@@ -25,8 +25,7 @@ $(document).ready(function () {
 		// 	closeEmailBox();
 		// }
 	})
-
-
+	$(document).on("scroll", blurOnScroll);
 })
 
 function openEmailBox () {
@@ -52,3 +51,20 @@ function closeEmailBox () {
 		}
 	}, 1000)
 }
+
+function blurOnScroll () {
+	var opacity = 0;
+	if ($(document).scrollTop() === 0) {
+		opacity = 0;
+		$(".window-blur-image").css("opacity", opacity);
+	} else if ($(document).scrollTop() < $(window).height() / 2) {
+		opacity = ($(document).scrollTop()) / ($(window).height() / 2);
+		$(".window-blur-image").css("opacity", opacity);
+	} else {
+		opacity = 1;
+		$(".window-blur-image").css("opacity", opacity);
+	}
+}
+
+
+
