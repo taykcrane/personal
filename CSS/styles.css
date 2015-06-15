@@ -160,7 +160,7 @@ a:hover {
 }
 
 .circles .email-li-mobile {
-	display: inline;
+	display: none;
 }
 
 .product-hunt {
@@ -338,7 +338,7 @@ hr {
 	}
 
 	.circles .email-li {
-		display: inline;
+		display: none;
 	}
 
 	.circles .email-li-mobile {
