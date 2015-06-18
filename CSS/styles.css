@@ -91,7 +91,7 @@ a:hover {
 	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: center bottom;
 }
 
 .window-image {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .window-blur-image {
-	background-image: url('http://negativespace.co/wp-content/uploads/2015/06/xnegativespace-181-1300x867.jpg.pagespeed.ic.eFyhXjc0mU.webp');
+	background-image: url('../images/nyc-blur.jpg');
 	opacity: 0;
 }
 
