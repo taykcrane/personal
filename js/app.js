@@ -57,8 +57,8 @@ function blurOnScroll () {
 	if ($(document).scrollTop() === 0) {
 		opacity = 0;
 		$(".window-blur-image").css("opacity", opacity);
-	} else if ($(document).scrollTop() < $(window).height() / 2) {
-		opacity = ($(document).scrollTop()) / ($(window).height() / 2);
+	} else if ($(document).scrollTop() < $(window).height() / 4) {
+		opacity = ($(document).scrollTop()) / ($(window).height() / 4);
 		$(".window-blur-image").css("opacity", opacity);
 	} else {
 		opacity = 1;

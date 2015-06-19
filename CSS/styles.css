@@ -91,7 +91,7 @@ a:hover {
 	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center bottom;
+	background-position: left -150px;
 }
 
 .window-image {
@@ -364,6 +364,10 @@ hr {
 
 	.container {
 		margin: 0 20%;
+	}
+
+	.window-image, .window-blur-image {
+		background-position: center center;
 	}
 
 	.window-image {
