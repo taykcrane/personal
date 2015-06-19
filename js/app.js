@@ -35,7 +35,7 @@ function openEmailBox () {
 		$(".email-li").animate({
 			"margin": "0 4em"
 		}, 1000, "easeInOutQuad")
-	}, 10);
+	}, 100);
 }
 
 function closeEmailBox () {
