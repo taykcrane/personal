@@ -8,16 +8,60 @@
 				"margin-top"
 			],
 			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Tran",
+				"translateY"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
 				"text-",
 				"text-align"
 			],
 			[
 				"background",
 				"background-repeat"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"max",
@@ -44,10 +88,6 @@
 				"background-color"
 			],
 			[
-				"pad",
-				"padding-bottom"
-			],
-			[
 				"mari",
 				"margin-bottom"
 			]
@@ -59,7 +99,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1438,
+				"buffer_size": 3725,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +107,7 @@
 			"file": "CSS/styles.css",
 			"settings":
 			{
-				"buffer_size": 1871,
+				"buffer_size": 5524,
 				"line_ending": "Unix",
 				"name": "html, body, div, span, applet, object, iframe,"
 			}
@@ -159,6 +199,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transform",
 			"20px",
 			"2px",
 			"’"
@@ -188,15 +229,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1438,
+						"buffer_size": 3725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
+								397,
+								465
 							]
 						],
 						"settings":
@@ -210,22 +251,28 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
 					"file": "CSS/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1871,
+						"buffer_size": 5524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1639,
-								1639
+								4168,
+								4168
 							]
 						],
 						"settings":
@@ -235,7 +282,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1001.0,
+						"translation.y": 4985.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -261,11 +308,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -317,7 +371,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
