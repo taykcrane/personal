@@ -4,10 +4,11 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-top"
+				"text",
+				"text-decoration"
 			],
 			[
+<<<<<<< HEAD
 				"font-",
 				"font-size"
 			],
@@ -22,10 +23,22 @@
 			[
 				"inli",
 				"inline-block"
+=======
+				"font",
+				"font-weight"
 			],
 			[
-				"font",
-				"font-size"
+				"back",
+				"background-color"
+>>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"background",
+				"background-repeat"
 			],
 			[
 				"trans",
@@ -84,8 +97,13 @@
 				"list-style-type"
 			],
 			[
+<<<<<<< HEAD
 				"backg",
 				"background-color"
+=======
+				"pad",
+				"padding-bottom"
+>>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 			],
 			[
 				"mari",
@@ -108,8 +126,12 @@
 			"settings":
 			{
 				"buffer_size": 5524,
+<<<<<<< HEAD
 				"line_ending": "Unix",
 				"name": "html, body, div, span, applet, object, iframe,"
+=======
+				"line_ending": "Unix"
+>>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 			}
 		}
 	],
@@ -153,12 +175,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/taylorcrane/Desktop/Projects/personal-website",
-		"/Users/taylorcrane/Desktop/Projects/personal-website/CSS",
-		"/Users/taylorcrane/Desktop/Projects/personal-website/images"
+		"/Users/taylorcrane/Desktop/Projects/personal",
+		"/Users/taylorcrane/Desktop/Projects/personal/CSS",
+		"/Users/taylorcrane/Desktop/Projects/personal/images"
 	],
 	"file_history":
 	[
+		"/Users/taylorcrane/Desktop/Projects/personal/CSS/styles.css",
 		"/Users/taylorcrane/Desktop/Projects/startup-landing-page-clone/landing.html",
 		"/Users/taylorcrane/Desktop/Projects/about-me-page/about-me.sublime-project",
 		"/Users/taylorcrane/Desktop/Projects/personal-website/index.html",
@@ -185,7 +208,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -236,8 +259,13 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								397,
 								465
+=======
+								436,
+								436
+>>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 							]
 						],
 						"settings":
@@ -246,7 +274,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 154.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -271,18 +299,26 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								4168,
 								4168
+=======
+								4438,
+								4438
+>>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 							]
 						],
 						"settings":
 						{
-							"auto_name": "html, body, div, span, applet, object, iframe,",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 4985.0,
+=======
+						"translation.y": 1142.0,
+>>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

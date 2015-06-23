@@ -18,7 +18,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -80,12 +79,33 @@ a:hover {
 	margin-left: 10%;
 }
 
+.top-border span {
+	margin-left: 1em;
+}
+
 .window {
-	background-image: url('../images/nyc.jpg');
+	height: 50vh;
+	position: relative;
+	z-index: -1;
+}
+
+.window-image, .window-blur-image {
+	position: absolute;
+	height: 100%;
+	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center center;
-	height: 50vh;
+	background-position: left -150px;
+}
+
+.window-image {
+	background-image: url('../images/nyc.jpg');
+	opacity: 1;
+}
+
+.window-blur-image {
+	background-image: url('../images/nyc-blur.jpg');
+	opacity: 0;
 }
 
 .content {
@@ -124,6 +144,45 @@ a:hover {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.email-box {
+	display: none;
+	height: 2em;
+	width: 0em;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%) translateX(-3.375em);
+	-ms-transform: translateY(-50%) translateX(-3.375em);
+	transform: translateY(-50%) translateX(-3.375em);
+	border: 3px solid #db4437;
+	background-color: #fff;
+	text-align: center;
+	z-index: 1000;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.email-box-animation {
+	width: 15em;
+	-webkit-transform: translateY(-50%) translateX(-10.9em);
+	-ms-transform: translateY(-50%) translateX(-10.9em);
+	transform: translateY(-50%) translateX(-10.9em);
+}
+
+.email-box p {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	overflow: hidden;
+}
+
+.circles .email-li-mobile {
+	display: none;
 }
 
 .product-hunt {
@@ -258,9 +317,15 @@ hr {
 /*MEDIA QUERIES*/
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1420px) {
 	.profile {
 		margin-right: 5%;
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	.profile {
+		margin-right: 1%;
 	}
 }
 
@@ -270,11 +335,12 @@ hr {
 	}
 
 	.profile-phone {
-		position: relative;
+		position: absolute;
 		top: 50%;
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
+		left: 50%;
+		-webkit-transform: translateY(-50%) translateX(-50%);
+		-ms-transform: translateY(-50%) translateX(-50%);
+		transform: translateY(-50%) translateX(-50%);
 	}
 
 	.profile-phone ul {
@@ -294,12 +360,28 @@ hr {
 		height: 10em;
 	}
 
+	.circles .email-li {
+		display: none;
+	}
+
+	.circles .email-li-mobile {
+		display: inline;
+	}
+
 	.container {
 		margin: 0 20%;
 	}
 
-	.window {
+	.window-image, .window-blur-image {
+		background-position: center center;
+	}
+
+	.window-image {
 		background-attachment: scroll;
+	}
+
+	.window-blur-image {
+		display: none;
 	}
 }
 
@@ -340,7 +422,7 @@ hr {
 	}
 
 	.mobile-only {
-		display: initial;
+		display: inline-block;
 	}
 
 	.project-section .container {
@@ -364,10 +446,6 @@ hr {
 		margin-top: .5em;
 	}
 }
-
-
-
-
 
 
 
