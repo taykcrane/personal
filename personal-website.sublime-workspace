@@ -4,10 +4,47 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-decoration"
+				"font",
+				"font-size"
 			],
 			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"bur",
+				"blurOnScroll"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"email-box",
+				"email-box-animation"
+			],
+			[
+				"email",
+				"email-box-animation"
+			],
+			[
+				"email-",
+				"email-box"
+			],
+			[
+				"close",
+				"closeEmailBox"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"font-",
 				"font-size"
@@ -26,6 +63,10 @@
 =======
 				"font",
 				"font-weight"
+=======
+				"backgr",
+				"background-color"
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 			],
 			[
 				"back",
@@ -117,7 +158,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3725,
+				"buffer_size": 3859,
 				"line_ending": "Unix"
 			}
 		},
@@ -125,20 +166,37 @@
 			"file": "CSS/styles.css",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 5524,
 <<<<<<< HEAD
 				"line_ending": "Unix",
 				"name": "html, body, div, span, applet, object, iframe,"
 =======
+=======
+				"buffer_size": 7008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1707,
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 				"line_ending": "Unix"
 >>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 67.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -208,7 +266,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -222,7 +280,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"transform",
+=======
+			":hover",
+			"cursor",
+			"box-shad",
+			".window",
+			".profile-phon",
+			".window",
+			".profile-phon",
+			".window",
+			".email-li",
+			".email-li-m",
+			".email-li",
+			".circle",
+			".email-lin",
+			"mobile",
+			".mobile",
+			".desktop-",
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 			"20px",
 			"2px",
 			"’"
@@ -252,7 +329,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3725,
+						"buffer_size": 3859,
 						"regions":
 						{
 						},
@@ -260,12 +337,17 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								397,
 								465
 =======
 								436,
 								436
 >>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
+=======
+								2436,
+								2436
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 							]
 						],
 						"settings":
@@ -274,7 +356,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 154.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -283,7 +365,11 @@
 			]
 		},
 		{
+<<<<<<< HEAD
 			"selected": 0,
+=======
+			"selected": 1,
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 			"sheets":
 			[
 				{
@@ -292,7 +378,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5524,
+						"buffer_size": 7008,
 						"regions":
 						{
 						},
@@ -300,12 +386,17 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								4168,
 								4168
 =======
 								4438,
 								4438
 >>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
+=======
+								2700,
+								2700
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 							]
 						],
 						"settings":
@@ -315,10 +406,42 @@
 						},
 						"translation.x": 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"translation.y": 4985.0,
 =======
 						"translation.y": 1142.0,
 >>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
+=======
+						"translation.y": 2019.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								962,
+								962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+>>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -369,6 +492,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "personal-website.sublime-project",
 	"replace":
 	{
@@ -378,6 +502,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -386,6 +511,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -394,6 +520,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
