@@ -4,48 +4,10 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-size"
+				"margin",
+				"margin-top"
 			],
 			[
-				"marg",
-				"margin-left"
-			],
-			[
-				"bur",
-				"blurOnScroll"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"inline",
-				"inline"
-			],
-			[
-				"email-box",
-				"email-box-animation"
-			],
-			[
-				"email",
-				"email-box-animation"
-			],
-			[
-				"email-",
-				"email-box"
-			],
-			[
-				"close",
-				"closeEmailBox"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-<<<<<<< HEAD
-<<<<<<< HEAD
 				"font-",
 				"font-size"
 			],
@@ -60,26 +22,10 @@
 			[
 				"inli",
 				"inline-block"
-=======
+			],
+			[
 				"font",
-				"font-weight"
-=======
-				"backgr",
-				"background-color"
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
-			],
-			[
-				"back",
-				"background-color"
->>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
-			],
-			[
-				"backg",
-				"background-image"
-			],
-			[
-				"background",
-				"background-repeat"
+				"font-size"
 			],
 			[
 				"trans",
@@ -138,13 +84,8 @@
 				"list-style-type"
 			],
 			[
-<<<<<<< HEAD
 				"backg",
 				"background-color"
-=======
-				"pad",
-				"padding-bottom"
->>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 			],
 			[
 				"mari",
@@ -158,7 +99,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3859,
+				"buffer_size": 4857,
 				"line_ending": "Unix"
 			}
 		},
@@ -166,15 +107,9 @@
 			"file": "CSS/styles.css",
 			"settings":
 			{
-<<<<<<< HEAD
-				"buffer_size": 5524,
-<<<<<<< HEAD
+				"buffer_size": 7006,
 				"line_ending": "Unix",
 				"name": "html, body, div, span, applet, object, iframe,"
-=======
-=======
-				"buffer_size": 7008,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -182,9 +117,7 @@
 			"settings":
 			{
 				"buffer_size": 1707,
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 				"line_ending": "Unix"
->>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
 			}
 		}
 	],
@@ -233,13 +166,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/taylorcrane/Desktop/Projects/personal",
-		"/Users/taylorcrane/Desktop/Projects/personal/CSS",
-		"/Users/taylorcrane/Desktop/Projects/personal/images"
+		"/Users/taylorcrane/Desktop/Projects/personal-website",
+		"/Users/taylorcrane/Desktop/Projects/personal-website/CSS",
+		"/Users/taylorcrane/Desktop/Projects/personal-website/images",
+		"/Users/taylorcrane/Desktop/Projects/personal-website/js"
 	],
 	"file_history":
 	[
-		"/Users/taylorcrane/Desktop/Projects/personal/CSS/styles.css",
 		"/Users/taylorcrane/Desktop/Projects/startup-landing-page-clone/landing.html",
 		"/Users/taylorcrane/Desktop/Projects/about-me-page/about-me.sublime-project",
 		"/Users/taylorcrane/Desktop/Projects/personal-website/index.html",
@@ -280,26 +213,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
+			"profile-photo",
 			"transform",
-=======
-			":hover",
-			"cursor",
-			"box-shad",
-			".window",
-			".profile-phon",
-			".window",
-			".profile-phon",
-			".window",
-			".email-li",
-			".email-li-m",
-			".email-li",
-			".circle",
-			".email-lin",
-			"mobile",
-			".mobile",
-			".desktop-",
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 			"20px",
 			"2px",
 			"’"
@@ -329,25 +244,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3859,
+						"buffer_size": 4857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								397,
-								465
-=======
-								436,
-								436
->>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
-=======
-								2436,
-								2436
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
+								455,
+								305
 							]
 						],
 						"settings":
@@ -359,17 +264,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-<<<<<<< HEAD
 			"selected": 0,
-=======
-			"selected": 1,
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
 			"sheets":
 			[
 				{
@@ -378,50 +279,34 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7008,
+						"buffer_size": 7006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								4168,
-								4168
-=======
-								4438,
-								4438
->>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
-=======
-								2700,
-								2700
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
+								7006,
+								7006
 							]
 						],
 						"settings":
 						{
+							"auto_name": "html, body, div, span, applet, object, iframe,",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-						"translation.y": 4985.0,
-=======
-						"translation.y": 1142.0,
->>>>>>> 81a32b9b60fcfae58d588336022a1f9d0aca065e
-=======
-						"translation.y": 2019.0,
+						"translation.y": 5568.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
 					"file": "js/app.js",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 1707,
@@ -431,20 +316,20 @@
 						"selection":
 						[
 							[
-								962,
-								962
+								185,
+								185
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
->>>>>>> a9a0eaa2dc171bf6949d006e1ec24bae0ab5a586
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -526,7 +411,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
